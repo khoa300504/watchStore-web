@@ -5,7 +5,29 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      spacing: {
+        '4.75': '4.75rem'
+      },
+      fontFamily: {
+        Karla: ['Karla', 'sans-serif']
+      },
+      colors: {
+        'light-coffee': '#E3BC9A'
+      },
+      letterSpacing: {
+        widest: '.125em'
+      },
+      keyframes: {
+        slideDown: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' }
+        }
+      },
+      animation: {
+        slideDown: 'slideDown 0.4s ease-in-out'
+      }
+    }
   },
   plugins: []
 }
