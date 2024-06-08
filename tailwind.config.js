@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       spacing: {
-        '4.75': '4.75rem'
+        // '4.75': '4.75rem'
       },
       fontFamily: {
-        Karla: ['Karla', 'sans-serif']
+        Karla: ['Karla', 'sans-serif'],
+        Pacifico : ['Pacifico', 'cursive']
       },
       colors: {
         'light-coffee': '#E3BC9A'

@@ -4,7 +4,7 @@ import Main from './Main'
 
 function Home() {
   return (
-    <div className='content-wrapper max-w-screen-xl text-base mx-auto px-8 bg-slate-200 h-96'>
+    <div className='content-wrapper text-base mx-auto px-8 h-96'>
       <Header/>
       <Main/>
       <Footer/>

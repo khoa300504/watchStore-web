@@ -4,15 +4,15 @@ function Header() {
   const [menuState, setMenuState] = useState(false)
 
   return (
-    <header className="header p-6 bg-white mx-auto relative">
+    <header className="header p-6 bg-white mx-auto relative max-w-screen-xl">
       <nav className="flex flex-row justify-between items-center">
         {/* logo */}
-        <div className="logo basis-1/6 flex items-center justify-center font-semibold text-xl cursor-pointer">
+        <div className="logo basis-1/6 flex items-center justify-center text-xl cursor-pointer font-Pacifico">
           ManStyle.
         </div>
         {/* Menu */}
-        <ul className={`top-menu basis-4/6 ${menuState ? 'top-menu-expanded' : 'hidden'} lg:flex lg:gap-7 lg:flex-row lg:justify-center
-        uppercase text-gray-500 font-semibold tracking-widest text-xs`}>
+        <ul className={`top-menu basis-4/6 ${menuState ? 'top-menu-expanded' : 'hidden'} lg:flex lg:flex-row lg:justify-center
+        uppercase text-gray-500 font-semibold tracking-widest text-xs gap-24 lg:gap-7`}>
           <li className="top-menu-item">
             <a href="">Home</a>
           </li>
@@ -30,7 +30,7 @@ function Header() {
           </li>
         </ul>
         {/* Cart */}
-        <div className="basis-3/6 lg:basis-1/6 flex flex-row lg:justify-center justify-end gap-1.5 cursor-pointer
+        <div className="basis-4/6 lg:basis-1/6 flex flex-row lg:justify-center justify-end gap-1.5 cursor-pointer
         text-gray-500 hover:text-gray-900 hover:font-semibold">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Header() {
           </svg>
           Sign in
         </div>
-        <div className="more-icon basis-1/6 flex-row float-start lg:hidden ml-1.5 sm:ml-0.5">
+        <div className="more-icon flex-row float-end lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg"
             onClick={() => setMenuState(!menuState)}
             fill="none"

@@ -1,6 +1,10 @@
+import Slider from '~/components/Slider'
+
 function Main() {
   return (
-    <div>Main</div>
+    <main className='flex justify-center'>
+      <Slider/>
+    </main>
   )
 }
 
