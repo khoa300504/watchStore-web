@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'x': '400px'
+      },
       spacing: {
         // '4.75': '4.75rem'
       },
@@ -23,10 +26,15 @@ export default {
         slideDown: {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(0)' }
+        },
+        loopScroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' }
         }
       },
       animation: {
-        slideDown: 'slideDown 0.4s ease-in-out'
+        slideDown: 'slideDown 0.4s ease-in-out',
+        loopScroll: 'loopScroll 15s linear infinite'
       }
     }
   },
