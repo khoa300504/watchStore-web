@@ -17,6 +17,7 @@ export default {
         Pacifico : ['Pacifico', 'cursive']
       },
       colors: {
+        coffee: '#967259',
         'light-coffee': '#E3BC9A'
       },
       letterSpacing: {
@@ -30,14 +31,18 @@ export default {
         loopScroll: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' }
+        },
+        fadeIn: {
+          from: { opacity: 0 },
+          to: { opacity: 1 }
         }
       },
       animation: {
         slideDown: 'slideDown 0.4s ease-in-out',
-        loopScroll: 'loopScroll 15s linear infinite'
+        loopScroll: 'loopScroll 15s linear infinite',
+        fadeIn: 'fadeIn .5s ease-in-out'
       }
     }
   },
   plugins: []
 }
-
