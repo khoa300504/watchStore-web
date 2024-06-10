@@ -17,3 +17,13 @@
   /* x < 400px screen */
   @apply flex-none w-[2.75rem] x:w-[4.68rem] lg:w-28 mx-0 lg:mx-[1.33rem]
 }
+
+.common-btn{
+  @apply text-center uppercase tracking-wider py-4 px-8 text-[13px] font-semibold cursor-pointer hover:bg-opacity-90
+}
+
+.explore-btn{
+  @apply absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
+  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
+  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95
+}

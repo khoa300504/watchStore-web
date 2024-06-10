@@ -9,16 +9,14 @@ function Main() {
       <CarouselSlide/>
       {/* Featured Products */}
       <SubHeadLine content={'Featured Products'}/>
-      <div className="featured-products w-11/12 sm:w-10/12 lg:w-[65%] mx-auto mb-20">
+      <div className="featured-products w-full sm:w-10/12 lg:w-[65%] mx-auto mb-20">
         <div className="grid grid-cols-2 gap-5">
           <div className="product-card">
-            <div className="h-[400px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch1.png')] bg-cover bg-no-repeat bg-center mb-9">
+            <div className="h-[300px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch1.png')] bg-cover bg-no-repeat bg-center mb-9">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -34,13 +32,11 @@ function Main() {
             </dism>
           </div>
           <div className="product-card">
-            <div className="h-[400px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch2.png')] bg-cover bg-no-repeat bg-center mb-9">
+            <div className="h-[300px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch2.png')] bg-cover bg-no-repeat bg-center mb-9">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -59,16 +55,14 @@ function Main() {
       </div>
       {/* More Products */}
       <SubHeadLine content={'More Products'}/>
-      <div className="more-products w-[95%] lg:w-[65%] mx-auto mb-20">
+      <div className="more-products w-[70%] x:w-[95%] xl:w-[65%] mx-auto mb-20">
         <div className="grid grid-cols-1 x:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="product-card mb-5">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch4.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -88,9 +82,7 @@ function Main() {
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -110,9 +102,7 @@ function Main() {
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -132,9 +122,7 @@ function Main() {
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -154,9 +142,7 @@ function Main() {
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -176,9 +162,7 @@ function Main() {
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
                 hover:transition-all hover:duration-300 hover:ease-in-out relative group">
-                  <div className="absolute bottom-2 lg:bottom-4 left-1/2 -translate-x-1/2 hidden
-                  group-hover:block group-hover:animate-fadeIn w-11/12 py-2 lg:py-4 px-3 lg:px-6 bg-white
-                  text-center tracking-widest font-semibold uppercase text-[10px] lg:text-[13px] cursor-pointer hover:bg-opacity-95">
+                  <div className="explore-btn">
                     Explore watch
                   </div>
                 </div>
@@ -195,8 +179,29 @@ function Main() {
           </div>
         </div>
       </div>
-      {/* Offer */}
-      <SubHeadLine content={'Buy Watch To Get Special Gift'} />
+      {/* shopping discount */}
+      <SubHeadLine content={'Gift for orders over 2 million'} />
+      <div className="shopping-discount w-[90%] xl:w-[65%] mx-auto mb-20">
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-7 font-Karla">
+          <div className="discount-post basis-1/2 text-center lg:text-left">
+            <div className="uppercase tracking-widest font-medium text-gray-500 text-[14px]">PREMIUM OFFER</div>
+            <div className="text-4xl font-normal mb-4 mt-3">Get our discount now</div>
+            <div className="text-base mb-4 text-gray-500">Receive one of three gifts with purchases from 2 million.</div>
+            <div className="common-btn bg-gray-950 text-white w-max mx-auto lg:mx-0">START SHOPPING</div>
+          </div>
+          <div className="discount-images basis-1/2 sm:flex sm:flex-row gap-3 w-full mb-5 lg:mb-0">
+            <div className="discount-big-image h-[280px] basis-3/5 mb-5 sm:mb-0
+              bg-[url('~/assets/imgs/products/gift3.jpg')] bg-cover bg-no-repeat bg-center">
+            </div>
+            <div className="discount-small-images basis-2/5 flex flex-row sm:flex-col gap-5">
+              <div className="h-[130px] basis-1/2 bg-[url('~/assets/imgs/products/gift1.jpg')] bg-cover bg-no-repeat bg-center">
+              </div>
+              <div className="h-[130px] basis-1/2 bg-[url('~/assets/imgs/products/gift2.jpg')] bg-cover bg-no-repeat bg-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
