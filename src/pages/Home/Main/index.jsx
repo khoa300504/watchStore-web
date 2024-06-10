@@ -1,4 +1,5 @@
 import CarouselSlide from '~/components/CarouselSlide'
+import Parallax from '~/components/Parallax'
 import Slider from '~/components/Slider'
 import SubHeadLine from '~/components/SubHeadLine'
 
@@ -181,7 +182,7 @@ function Main() {
       </div>
       {/* shopping discount */}
       <SubHeadLine content={'Gift for orders over 2 million'} />
-      <div className="shopping-discount w-[90%] xl:w-[65%] mx-auto mb-20">
+      <div className="shopping-discount w-[90%] lg:w-[65%] mx-auto mb-20">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-7 font-Karla">
           <div className="discount-post basis-1/2 text-center lg:text-left">
             <div className="uppercase tracking-widest font-medium text-gray-500 text-[14px]">PREMIUM OFFER</div>
@@ -189,11 +190,11 @@ function Main() {
             <div className="text-base mb-4 text-gray-500">Receive one of three gifts with purchases from 2 million.</div>
             <div className="common-btn bg-gray-950 text-white w-max mx-auto lg:mx-0">START SHOPPING</div>
           </div>
-          <div className="discount-images basis-1/2 sm:flex sm:flex-row gap-3 w-full mb-5 lg:mb-0">
-            <div className="discount-big-image h-[280px] basis-3/5 mb-5 sm:mb-0
+          <div className="discount-images basis-1/2 l:flex l:flex-row gap-3 w-full mb-5 lg:mb-0">
+            <div className="discount-big-image h-[280px] l:h[h-350px] md:h-[350px] lg:h-[280px] basis-3/5 mb-5 l:mb-0
               bg-[url('~/assets/imgs/products/gift3.jpg')] bg-cover bg-no-repeat bg-center">
             </div>
-            <div className="discount-small-images basis-2/5 flex flex-row sm:flex-col gap-5">
+            <div className="discount-small-images basis-2/5 flex flex-row l:flex-col gap-5">
               <div className="h-[130px] basis-1/2 bg-[url('~/assets/imgs/products/gift1.jpg')] bg-cover bg-no-repeat bg-center">
               </div>
               <div className="h-[130px] basis-1/2 bg-[url('~/assets/imgs/products/gift2.jpg')] bg-cover bg-no-repeat bg-center">
@@ -202,6 +203,7 @@ function Main() {
           </div>
         </div>
       </div>
+      <Parallax/>
     </main>
   )
 }

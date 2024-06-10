@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        'x': '400px'
+        'x': '400px',
+        'l': '490px'
       },
       spacing: {
         // '4.75': '4.75rem'
