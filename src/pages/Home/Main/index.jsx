@@ -270,7 +270,21 @@ function Main() {
         </div>
       </div>
       {/* Subcribe */}
-      <div className="subcribe"></div>
+      <div className="subcribe bg-gray-900 w-full flex flex-col items-center justify-center font-Karla mb-20">
+        <div className="pt-20 pb-[85px] px-24 flex flex-col items-center justify-center w-full">
+          <div className="text-gray-400 text-xs font-semibold tracking-widest">SIGN UP AND GET FREE OFFER</div>
+          <div className="text-white text-4xl mt-[15px] mb-[25px]">Get All News</div>
+          <div className="sub-info flex flex-col md:flex-row w-full justify-center items-center mx-auto gap-3">
+            <input
+              className='px-2 l:px-6 py-4 border-gray-700 hover:border-gray-400 focus:border-gray-400
+              bg-inherit w-[250px] l:w-[350px] uppercase text-xs tracking-widest font-bold border-[1px] leading-5 text-white
+              duration-300 ease-in-out'
+              type="text"
+              placeholder='customer@manstyle.io'/>
+            <div className="common-btn bg-white max-h-[53.6px]">Subcribe</div>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
