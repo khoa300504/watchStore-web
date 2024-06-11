@@ -204,6 +204,73 @@ function Main() {
         </div>
       </div>
       <Parallax/>
+      {/* Blog */}
+      <div className="blog w-[95%] xl:w-[65%] mx-auto mb-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="blog-card">
+            <div className="h-[300px] bg-[url('~/assets/imgs/products/blog1.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out
+                  hover:duration-500 relative group">
+                  <div className="common-btn absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden
+                    group-hover:block group-hover:animate-fadeIn">Read Full</div>
+                </div>
+              </a>
+            </div>
+            <div className="my-5 font-Karla">
+              <a href="">
+                <div className="mb-3 text-xl hover:text-coffee">Innovations and trends in the watch</div>
+              </a>
+              <div className="mb-3 text-base text-gray-500">
+                Our boutique is passage to the world of high-end horology, where history wraps around your wrist
+              </div>
+              <div className="uppercase text-xs tracking-widest font-semibold text-gray-500">April 30, 2024</div>
+            </div>
+          </div>
+          <div className="blog-card">
+            <div className="h-[300px] bg-[url('~/assets/imgs/products/blog2.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out
+                  hover:duration-500 relative group">
+                  <div className="common-btn absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden
+                    group-hover:block group-hover:animate-fadeIn">Read Full</div>
+                </div>
+              </a>
+            </div>
+            <div className="my-5 font-Karla">
+              <a href="">
+                <div className="mb-3 text-xl hover:text-coffee">6 tips to match a watch with your outfit</div>
+              </a>
+              <div className="mb-3 text-base text-gray-500">
+                Ready to dive into the fascinating world of watches and fashion? A watch is more than just a time-telling device
+              </div>
+              <div className="uppercase text-xs tracking-widest font-semibold text-gray-500">April 30, 2024</div>
+            </div>
+          </div>
+          <div className="blog-card">
+            <div className="h-[300px] bg-[url('~/assets/imgs/products/blog3.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out
+                  hover:duration-500 relative group">
+                  <div className="common-btn absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden
+                    group-hover:block group-hover:animate-fadeIn">Read Full</div>
+                </div>
+              </a>
+            </div>
+            <div className="my-5 font-Karla">
+              <a href="">
+                <div className="mb-3 text-xl hover:text-coffee">Discover your style with a perfect and suitable watch</div>
+              </a>
+              <div className="mb-3 text-base text-gray-500">
+                A watch is not only a timepiece. It is a trendy item that improves your particular style and finishes off your ensemble
+              </div>
+              <div className="uppercase text-xs tracking-widest font-semibold text-gray-500">April 30, 2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Subcribe */}
+      <div className="subcribe"></div>
     </main>
   )
 }
