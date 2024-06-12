@@ -2,8 +2,17 @@ import CarouselSlide from '~/components/CarouselSlide'
 import Parallax from '~/components/Parallax'
 import Slider from '~/components/Slider'
 import SubHeadLine from '~/components/SubHeadLine'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 function Main() {
+  useEffect(() => {
+    Aos.init({
+      once: true
+    })
+  }, [])
+
   return (
     <main className='flex justify-center items-center flex-col'>
       <Slider/>
@@ -12,7 +21,7 @@ function Main() {
       <SubHeadLine content={'Featured Products'}/>
       <div className="featured-products w-full sm:w-10/12 lg:w-[65%] mx-auto mb-20">
         <div className="grid grid-cols-2 gap-5">
-          <div className="product-card">
+          <div className="product-card" data-aos="fade-up">
             <div className="h-[300px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch1.png')] bg-cover bg-no-repeat bg-center mb-9">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -32,7 +41,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 220.00 USD</div>
             </dism>
           </div>
-          <div className="product-card">
+          <div className="product-card" data-aos="fade-up">
             <div className="h-[300px] lg:h-[530px] bg-[url('~/assets/imgs/products/watch2.png')] bg-cover bg-no-repeat bg-center mb-9">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -58,7 +67,7 @@ function Main() {
       <SubHeadLine content={'More Products'}/>
       <div className="more-products w-[70%] x:w-[95%] xl:w-[65%] mx-auto mb-20">
         <div className="grid grid-cols-1 x:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch4.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -78,7 +87,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 220.00 USD</div>
             </dism>
           </div>
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch10.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -98,7 +107,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 355.00 USD</div>
             </div>
           </div>
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch6.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -118,7 +127,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 355.00 USD</div>
             </div>
           </div>
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch7.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -138,7 +147,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 355.00 USD</div>
             </div>
           </div>
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch9.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -158,7 +167,7 @@ function Main() {
               <div className="text-gray-500 text-xs sm:text-sm">$ 355.00 USD</div>
             </div>
           </div>
-          <div className="product-card mb-5">
+          <div className="product-card mb-5" data-aos="fade-up">
             <div className="h-[380px] bg-[url('~/assets/imgs/products/watch11.png')] bg-cover bg-no-repeat bg-center mb-3 lg:mb-5">
               <a href="">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-5
@@ -183,7 +192,7 @@ function Main() {
       {/* shopping discount */}
       <SubHeadLine content={'Gift for orders over 2 million'} />
       <div className="shopping-discount w-[90%] lg:w-[65%] mx-auto mb-20">
-        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-7 font-Karla">
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-7 font-Karla" data-aos="fade-up">
           <div className="discount-post basis-1/2 text-center lg:text-left">
             <div className="uppercase tracking-widest font-medium text-gray-500 text-[14px]">PREMIUM OFFER</div>
             <div className="text-4xl font-normal mb-4 mt-3">Get our discount now</div>
@@ -270,7 +279,7 @@ function Main() {
         </div>
       </div>
       {/* Subcribe */}
-      <div className="subcribe bg-gray-900 w-full flex flex-col items-center justify-center font-Karla mb-20">
+      <div className="subcribe bg-gray-900 w-full flex flex-col items-center justify-center font-Karla mb-20" data-aos="zoom-in">
         <div className="pt-20 pb-[85px] px-24 flex flex-col items-center justify-center w-full">
           <div className="text-gray-400 text-xs font-semibold tracking-widest">SIGN UP AND GET FREE OFFER</div>
           <div className="text-white text-4xl mt-[15px] mb-[25px]">Get All News</div>
